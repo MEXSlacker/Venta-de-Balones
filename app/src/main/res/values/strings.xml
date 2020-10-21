@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">Beto Shop</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="appTitle">Beto Shop</string>
+    <string name="appSubTitle">Venta de Balones y pelotas</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="holder">Holder</string>
+
+    <string name="home_second">Home Second</string>
+
+    <!--Titulos-->
+    <string name="infoPerfil">Información del Perfil</string>
+    <string name="tituloProductos">Balones</string>
+    <string name="tituloCompartir">Comparte tu Compra</string>
+
+
+    <!--Strings del fragmento perfil-->
+    <string name="nombrePerfil">Nombre(s)</string>
+    <string name="apellidoPerfil">Apellido(s)</string>
+    <string name="correoPerfil">Correo</string>
+    <string name="telefonoPerfil">Teléfono</string>
+    <string name="usuarioPerfil">Usuario</string>
+    <string name="contraPerfil">Contraseña</string>
+
+
+    <!--Strings para el fragmento compartir-->
+    <string name="codigoCompartir">Codigo:</string>
+    <string name="totalCompartir">Total:</string>
+    <string name="subtotalCompartir">SubTotal:</string>
+    <string name="btnCompartir">¡Compartir!</string>
+
+
+    <!--String for fragment navigation & there titles-->
+    <string name="loginNav">Login</string>
+    <string name="productosNav">Productos</string>
+    <string name="carritoNav">Carrito</string>
+    <string name="perfilNav">Mi Perfil</string>
+    <string name="comprasNav">Compras</string>
+    <string name="compartirNav">Compartir</string>
+
+    <string name="separetorShare">Compartir tu compra</string>
+
+
+    <!--Exits-->
+    <string name="salirPerfil">Salir del perfil</string>
+    <string name="title_activity_registracion">Registracion</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+
+    <!--String para la actividad de registro -->
+    <string name="correo">correo</string>
+    <string name="nombres">Nombre(s)</string>
+    <string name="apellido">Apellido(s)</string>
+    <string name="tel">Telefono</string>
+    <string name="usuario">Nombre de Usuario</string>
+    <string name="password1">Contraseña</string>
+    <string name="password2">Repetir Contraseña</string>
+
+    <!--productos y precios -->
+    <string-array name="productos">
+        <item>Readers Cricket</item>
+        <item>Lusum Cricket</item>
+
+        <item>Molten Basketball</item>
+        <item>Lusum Basketball</item>
+
+        <item>Wilson American Football</item>
+
+        <item>Dunlop tennisball</item>
+        <item>Slazenger tennisball</item>
+
+        <item>Gilbert ball</item>
+        <item>Lusum ball</item>
+
+    </string-array>
+    <string-array name="costoProductos">
+        <item>200</item>
+        <item>202</item>
+        <item>204</item>
+        <item>206</item>
+        <item>208</item>
+        <item>210</item>
+        <item>212</item>
+        <item>214</item>
+        <item>216</item>
+    </string-array>
+
+    <!--carrito -->
+    <string name="comprarCarrito">Comprar</string>
+    <string name="vaciarCarrito">Vaciar Carrito</string>
+
+</resources>

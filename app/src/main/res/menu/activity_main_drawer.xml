@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/users"
+            android:title="@string/loginNav" />
+        <item
+            android:id="@+id/nav_productos"
+            android:icon="@drawable/icon"
+            android:title="@string/productosNav"/>
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/shop"
+            android:title="@string/comprasNav" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/cart"
+            android:title="@string/carritoNav" />
+        <item
+            android:id="@+id/nav_perfil"
+            android:icon="@drawable/user"
+            android:title="@string/perfilNav"/>
+        <item
+            android:id="@+id/separatorForShare"
+            android:title="@string/separetorShare"/>
+        <item
+            android:id="@+id/nav_compartir"
+            android:icon="@drawable/share"
+            android:title="@string/compartirNav"/>
+    </group>
+</menu>

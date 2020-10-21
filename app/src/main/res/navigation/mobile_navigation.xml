@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.bdtercerparcial.ui.home.HomeFragment"
+        android:label="@string/loginNav"
+        tools:layout="@layout/fragment_home">
+    </fragment>
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.bdtercerparcial.ui.gallery.GalleryFragment"
+        android:label="@string/comprasNav"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.bdtercerparcial.ui.slideshow.SlideshowFragment"
+        android:label="@string/carritoNav"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_perfil"
+        android:name="com.example.bdtercerparcial.ui.perfil.PerfilFragment"
+        android:label="@string/perfilNav"
+        tools:layout="@layout/fragment_perfil"/>
+    <fragment
+        android:id="@+id/nav_compartir"
+        android:name="com.example.bdtercerparcial.ui.compartir.CompartirFragment"
+        android:label="@string/compartirNav"
+        tools:layout="@layout/fragment_compartir"/>
+    <fragment
+        android:id="@+id/nav_productos"
+        android:name="com.example.bdtercerparcial.ui.productos.ProductosFragment"
+        android:label="@string/productosNav"
+        tools:layout="@layout/fragment_productos"/>
+</navigation>
